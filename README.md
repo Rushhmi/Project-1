@@ -207,6 +207,9 @@ A prediction interval is a range of values that is likely to contain a future ob
 
 For example, if we have a regression model that predicts the sales of a product based on its price and advertising budget, we can use a prediction interval to estimate the range of possible sales for a new product with a certain price and advertising budget, with a certain level of confidence, such as 95%. This means that if we repeat the prediction process many times, 95% of the resulting intervals will contain the true sales value.
 
+
+Link for questions related to other topics: https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/tree/main/Figures
+
 The formula for a prediction interval is: prediction interval = point estimate +/- margin of error
 
 The point estimate is the predicted value of the outcome variable based on the model and the input variables. The margin of error depends on the residual standard deviation of the model, which measures the variability of the observed data around the predicted values, and the desired level of confidence. For example, if the residual standard deviation is larger or the level of confidence is higher, the margin of error will be larger, resulting in a wider prediction interval. 4
